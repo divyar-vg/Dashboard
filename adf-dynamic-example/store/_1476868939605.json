@@ -69,7 +69,7 @@
             {
               "type": "gauge",
               "config": {
-                "MetricId": 0
+                "MetricId": "1"
               },
               "title": "Gauge",
               "titleTemplateUrl": "../src/templates/widget-title.html",

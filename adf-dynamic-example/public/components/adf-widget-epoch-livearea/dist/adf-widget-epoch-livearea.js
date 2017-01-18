@@ -59,7 +59,6 @@
 	                  }
 	                  return data2;
 	              }
-
           }]);
 
    angular.module("adf.widget.epoch.livearea").run(["$templateCache", function ($templateCache) { $templateCache.put("{widgetsPath}/livearea/src/view.html", "<div class=\"row\"><div class=\"col-lg-12\"><div class=\"widget panel panel-dashboard\"><div class=\"widget panel-body\" ><epoch-live-area ng-if=\"config.ChartType =='Area'\" chart-class=\"category10\" chart-height=\"200\" chart-data=\"realtime\" chart-stream=\"realtimeFeed\" chart-axes=\"areaAxes\"></epoch-live-area><epoch-live-line ng-if=\"config.ChartType =='Line'\" chart-class=\"category10\" chart-height=\"200\" chart-data=\"realtime\" chart-stream=\"realtimeFeed\" chart-axes=\"areaAxes\"></epoch-live-line>   <epoch-live-bar ng-if=\"config.ChartType =='Bar'\" chart-class=\"category10\" chart-height=\"200\" chart-data=\"realtime\" chart-stream=\"realtimeFeed\" chart-axes=\"barAxes\"></epoch-live-bar> </div> </div></div></div>"); 
